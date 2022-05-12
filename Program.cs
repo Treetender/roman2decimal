@@ -1,0 +1,31 @@
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+Console.WriteLine("Testing Roman Numeral \"I\"");
+Console.WriteLine($"I is: {"I".ParseRomanNumeral()}");
+Console.WriteLine($"II is: {"II".ParseRomanNumeral()}");
+Console.WriteLine($"IV is: {"IV".ParseRomanNumeral()}");
+Console.WriteLine($"VI is: {"VI".ParseRomanNumeral()}");
+Console.WriteLine($"IX is: {"IX".ParseRomanNumeral()}");
+Console.WriteLine($"MCMLXVI is: {"MCMLXVI".ParseRomanNumeral()}");
+Console.WriteLine($"MM is: {"MM".ParseRomanNumeral()}");
+Console.WriteLine($"MMXXII is: {"MMXXII".ParseRomanNumeral()}");
+Console.WriteLine($"CDXLIV is: {"CDXLIV".ParseRomanNumeral()}");
+Console.WriteLine($"MDCII is: {"MDCII".ParseRomanNumeral()}");
+Console.WriteLine($"MCDXCII is: {"MCDXCII".ParseRomanNumeral()}");
+
+Console.WriteLine("Now testing Int to Roman Numeral");
+Console.WriteLine($"1 is: {1.ToRomanNumeral()}");
+Console.WriteLine($"2 is: {2.ToRomanNumeral()}");
+Console.WriteLine($"3 is: {3.ToRomanNumeral()}");
+Console.WriteLine($"4 is: {4.ToRomanNumeral()}");
+Console.WriteLine($"5 is: {5.ToRomanNumeral()}");
+Console.WriteLine($"6 is: {6.ToRomanNumeral()}");
+Console.WriteLine($"7 is: {7.ToRomanNumeral()}");
+Console.WriteLine($"8 is: {8.ToRomanNumeral()}");
+Console.WriteLine($"9 is: {9.ToRomanNumeral()}");
+Console.WriteLine($"10 is: {10.ToRomanNumeral()}");
+Console.WriteLine($"42 is: {42.ToRomanNumeral()}");
+Console.WriteLine($"69 is: {69.ToRomanNumeral()}");
+Console.WriteLine($"1492 is: {1492.ToRomanNumeral()}");
+Console.WriteLine($"2022 is: {2022.ToRomanNumeral()}");
+Console.WriteLine($"666 is: {666.ToRomanNumeral()}");
